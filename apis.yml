@@ -1,8 +1,24 @@
 aid: nvision-imaging-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nvision-imaging-technologies.png
 name: NVision Imaging Technologies
-description: 'NVision Imaging Technologies is a company surfaced as a portfolio company of playground-global
-  and added to the API Evangelist network as a stub for enrichment. Sector: engineered-biology. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'NVision Imaging Technologies (now operating as NVision Quantum Technologies)
+  is a deep-tech healthcare company that engineers quantum technology at the molecular level. Its
+  flagship POLARIS platform delivers quantum-enhanced MRI, boosting the magnetic signal of engineered
+  sugar molecules by over 10,000x to image disease metabolism in real time, and its PIQC platform is
+  a quantum-computing architecture built on molecular quantum nodes native to photonic chips. The
+  company is backed by Playground Global. It publishes no public developer API, SDK, or technical
+  integration surface; this profile carries identity and domain-security signals only.'
 url: https://raw.githubusercontent.com/api-evangelist/nvision-imaging-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Engineered Biology
+- Quantum Technology
+- Molecular Imaging
+- MRI
+- Quantum Computing
+- Hyperpolarization
+- Healthcare
+- Deep Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nvision-imaging-technologies-domain-security.yml
 - type: Website
-  url: https://www.nvision-imaging.com/
+  url: https://www.nvision-quantum.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
